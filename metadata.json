@@ -1,0 +1,6 @@
+{
+  "name": "Bhagat Singh: Chronicles of Courage",
+  "description": "An interactive historical quest and puzzle game based on the life, learning, inspirations, and beliefs of Bhagat Singh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

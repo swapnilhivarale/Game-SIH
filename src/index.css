@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #1a120c;
+    color: #f3e9dc;
+    background-image: 
+      radial-gradient(ellipse at 50% 0%, rgba(139, 87, 42, 0.15) 0%, transparent 60%),
+      radial-gradient(ellipse at 80% 100%, rgba(92, 53, 23, 0.12) 0%, transparent 50%),
+      radial-gradient(ellipse at 10% 80%, rgba(68, 38, 16, 0.12) 0%, transparent 50%);
+    background-attachment: fixed;
+  }
+}
+
+.font-serif-title {
+  font-family: 'Cinzel', 'EB Garamond', Georgia, serif;
+}
+
+.font-serif-body {
+  font-family: 'EB Garamond', Georgia, serif;
+}
+
+/* Aged Parchment / Historical Paper Effect */
+.bg-parchment-card {
+  background-color: #271c14;
+  border-color: #533924;
+}
+
+.bg-parchment-deep {
+  background-color: #1e150e;
+  border-color: #4a321f;
+}
+
+.vintage-border {
+  border: 1px solid rgba(160, 114, 76, 0.35);
+  box-shadow: 0 4px 20px -2px rgba(15, 8, 4, 0.5), inset 0 1px 0 rgba(220, 175, 120, 0.08);
+}
+
+.vintage-gold-glow {
+  box-shadow: 0 0 25px rgba(186, 128, 64, 0.18);
+}
+
+/* Custom scrollbar for readable excerpts */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #1c140d;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(143, 94, 52, 0.5);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(184, 124, 72, 0.8);
+}
